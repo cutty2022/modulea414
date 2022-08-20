@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Regular.ttf) format("TrueType");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #F6F2F2;
+    font-family: 'OpenSans';
+}
+
+header {
+    height: 89px;
+    max-width: 1249px;
+    margin: 29px auto 0px auto;
+    background: #000000;
+}
+
+.site-menu {
+    display: flex;
+    justify-content: center;
+    height: 89px;
+}
+
+.item-menu {
+    height: 89px;
+    font-size: 14px;
+    line-height: 89px;
+    letter-spacing: 0.49px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.item-menu:hover {
+    background:#FF3F40;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 103px auto 0px auto;
+    max-width: 1249px;
+    flex-wrap: wrap;
+}
+
+.sec-left {
+    width: 618px;
+}
+
+.sec-right {
+    width: 556;
+    height: 359;
+}
+
+.sec h1 {
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.sec p {
+    margin-top: 37px;
+}
+
+.button {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FF2D2D;
+    width: 227px;
+    padding: 19px 0;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.subscribe {
+    width: 100%;
+    background: #2C2C2C;
+    display: block;
+    padding-top: 124px;
+    padding-bottom: 140px;
+    margin-top: 100px;
+}
+
+.subscribe h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe form input {
+    display: flex;
+    width: 524px;
+    height: 74px;
+    margin-right: 19px;
+}
+
+.subscribe form input::placeholder {
+    color: #2C2C2C;
+}
+
+.subscribe form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 82px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF2D2D;
+    border: none;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 0px 165px;
+    flex-wrap: wrap;
+}
+
+.feedback-left {
+    width: 734px;
+}
+
+.feedback-left h2 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.feedback-left p {
+    color: #000000;
+}
+
+.feedback-line {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+    margin-left: 165px;
+}
+
+.fb-m {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fb-form {
+    width: 734px;
+    margin-left: 165px;
+}
+
+.fb-form #name {
+    width:342px;
+    height: 71px;
+    margin-right: 22px;
+}
+
+.fb-form #email {
+    width:342px;
+    height: 71px;
+    margin-right: 0;
+}
+
+.fb-form #message {
+    width: 720px;
+    height: 252px;
+    margin-top: 43px;
+}
+
+.fb-m .contact {
+    width: 580px;
+    height: 485px;
+    margin-right: 0;
+    background: #2D2D2D;
+}
+
+.fb-m button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 726px;
+    height: 75px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF3B3B;
+    border: none;
+    margin-top: 26px;
+}
+
+.contact h3 {
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 81px;
+    margin-top: 141px;
+}
+
+.contact p {
+    color: #FFFFFF;
+    margin-left: 81px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 113px;
+    background: #313030;
+    margin-top: 107px;
+}
+
+footer img {
+    height: 33px;
+    margin-right: 168px;
+}
+
+footer p {
+    margin-left: 171px;
+    color: #B8B8B8;
+}
+
+.provide {
+    margin: 107px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1249px;
+    background: #F2F2F2;
+}
+
+.provide-left h2 {
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.provide-left {
+    width: 523px;
+}
+
+.provide-left a {
+    width: 227px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.provide-right {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.provide-right-block {
+    width: 280px;
+}
+
+.provide-line {
+    width: 1251px;
+    height: 5px;
+    background: #ECECEC;
+}
+
+.h2fp {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pfp {
+    text-align: center;
+}
+
+.hrfp {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.filter a {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 25px;
+    color: #000000;
+}
+
+.products {
+    max-width: 1249px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 54px auto 0 auto;
+}
+
+.product-el {
+    display: flex;
+    width: 300px;
+    height: 293px;
+    background: #5281FF;
+    margin: 5px 5px;
+}
+
+.divmt {
+    max-width: 1249px;
+    text-align: left;
+    margin: 100px auto 0 auto;
+}
+
+.divmt h2 {
+    text-transform: uppercase;
+    width: 479px;
+}
+
+.divmt p {
+    width: 479px;
+}
+
+.divmt hr {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+    margin-left: 0px;
+}
+
+.team {
+    max-width: 1249px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 67px auto 0 auto;
+}
+
+.team-left {
+    width: 324px;
+    height: 460px;
+    background: #FF3F40;
+}
+
+.team-right {
+    width: 800px;
+}
+
+.teammtblock {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.teammtsm {
+    width: 185px;
+    height: 200px;
+    background: #FF3F40;
+}
+
+.teammate h4 {
+    text-transform: uppercase;
+}
+
+.teammate a {
+    text-decoration: none;
+    font-style: italic;
+    padding-right: 25px;
+    color: #000000;
+}
